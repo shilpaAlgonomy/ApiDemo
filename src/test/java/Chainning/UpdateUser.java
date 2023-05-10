@@ -17,7 +17,7 @@ public class UpdateUser {
 		JSONObject data=new JSONObject();
 		
 		data.put("fullName",fak.name().fullName());
-		data.put("Gender","Male");
+		data.put("Gender","Female");
 		
 	data.put("email",fak.internet().safeEmailAddress());
 	
